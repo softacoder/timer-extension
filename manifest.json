@@ -1,7 +1,7 @@
 {
   // Required
   "manifest_version": 3,
-  "name": "My Extension",
+  "name": "Timer Extension",
   "version": "1.0.1",
   "description": "Hello chrome world!",
   "icons": {
