@@ -17,5 +17,6 @@
     },
     "default_title": "Timer Extension Action Title", // optional, shown in tooltip
     "default_popup": "popup.html" // optional
-  }
+  },
+  "options_page": "options.html"
 }
