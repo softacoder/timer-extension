@@ -12,3 +12,7 @@ saveBtn.addEventListener("click", () => {
     }
   );
 });
+
+chrome.storage.sync.get(["name"], (res) => {
+  nameInput.value = res.name;
+});
