@@ -10,7 +10,6 @@
   },
   "action": {
     "default_icon": {
-      // optional
       "16": "icon.png", // optional
       "24": "icon.png", // optional
       "32": "icon.png" // optional
@@ -18,5 +17,6 @@
     "default_title": "Timer Extension Action Title", // optional, shown in tooltip
     "default_popup": "popup.html" // optional
   },
-  "options_page": "options.html"
+  "options_page": "options.html",
+  "permissions": ["storage"]
 }
