@@ -1,5 +1,3 @@
-// const { response } = require("express");
-
 const timeElement = document.getElementById("time");
 const nameElement = document.getElementById("name");
 const currentTime = new Date().toLocaleTimeString();
@@ -15,5 +13,6 @@ chrome.action.setBadgeText(
 );
 
 chrome.storage.sync.get(["name"], (res) => {
-  nameElement.textContent = `Your name is: ${res.name}`;
+  const name = res.name ?? "???";
+  // nameElement.textContent = `Your name is: ${name}`;
 });
