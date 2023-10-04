@@ -8,7 +8,7 @@ saveBtn.addEventListener("click", () => {
       name,
     },
     () => {
-      console.log("Name is set ${name}");
+      console.log(`Name is set to ${name}`);
     }
   );
 });
