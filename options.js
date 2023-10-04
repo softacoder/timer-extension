@@ -3,7 +3,7 @@ const saveBtn = document.getElementById("save-btn");
 
 saveBtn.addEventListener("click", () => {
   const name = nameInput.value;
-  chrome.storge.sync.set(
+  chrome.storage.sync.set(
     {
       name,
     },
